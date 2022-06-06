@@ -1,15 +1,15 @@
 # education-portal-frontend
 
 
-This is a website for educational platform 
-I did all the design and colors by myself.
-I wrote this project with React Js 
-What I have used to improve the project are these
-=>react-icons
-=>react-router-dom
-=>react components
-=>props, in order to pass data
-=>react hooks, to manipulate the data
-=>authentication with firebase
+<p>This is a website for educational platform </p>
+<p>I did all the design and colors by myself.</p>
+<p>I wrote this project with React Js </p>
+<p>What I have used to improve the project are these</p>
+<p>=>react-icons</p>
+<p>=>react-router-dom</p>
+<p>=>react components</p>
+<p>=>props, in order to pass data</p>
+<p>=>react hooks, to manipulate the data</p>
+<p>=>authentication with firebase</p>
 
 
