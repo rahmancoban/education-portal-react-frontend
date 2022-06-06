@@ -1,0 +1,112 @@
+.container{
+  width: 100%;
+  position: relative;
+}
+
+.container .videoBack{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+}
+
+.container .videoBack video{
+  width: 60%;
+  margin-bottom: 24px;
+}
+
+.container .videoBack .titleInfo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+
+.container .videoBack .titleInfo h3{
+  font-size: 36px;
+}
+
+.container .videoBack .titleInfo h6{
+  font-size: 16px;
+}
+
+.container .buttonsInfo{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  margin: 60px auto;
+}
+
+.container .buttonsInfo a{
+  font-size: 20px;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.container .buttonsInfo a:hover{
+  color: #00c3dc;
+}
+
+.container .buttonsInfo a:not(:last-child){
+  border-right: 1px solid #555;
+}
+
+@media (max-width:1080px) {
+
+  .container .buttonsInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    margin: 50px auto;
+  }
+}
+
+@media (max-width:900px) {
+
+  .container .buttonsInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    margin: 40px auto;
+  }
+  .container .videoBack .titleInfo h3{
+    font-size: 30px;
+  }
+  
+  .container .videoBack .titleInfo h6{
+    font-size: 14px;
+  }
+  .container .buttonsInfo a{
+    font-size: 18px;
+    padding-right: 16px;
+  }
+}
+
+@media (max-width:800px) {
+
+  .container .buttonsInfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin: 60px auto;
+    gap: 12px;
+  }
+  .container .buttonsInfo a{
+    font-size: 16px;
+  }
+  .container .buttonsInfo a:not(:last-child){
+    border-right: none;
+  }
+  .container .videoBack .titleInfo h3{
+    font-size: 24px;
+  }
+  
+  .container .videoBack .titleInfo h6{
+    font-size: 12px;
+  }
+}
