@@ -1,4 +1,4 @@
-# education-portal-frontend
+# education-portal-react-frontend
 
 <h3> After you unzip the files just (-npm install) and then (-npm start) will open the project on your localhost. </h3>
 <p>This is a website for educational platform </p>
