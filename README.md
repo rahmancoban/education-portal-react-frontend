@@ -1,6 +1,6 @@
 # education-portal-frontend
 
-
+<h3> After you unzip the files just -npm install and the -npm start the project. </h3>
 <p>This is a website for educational platform </p>
 <p>I did all the design and colors by myself.</p>
 <p>I wrote this project with React Js </p>
